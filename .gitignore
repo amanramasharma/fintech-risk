@@ -37,4 +37,8 @@ checkpoints/
 
 # IDE
 .vscode/
-.idea/
+.idea/.env
+*.pem
+*.key
+__pycache__/
+venv/
