@@ -1,0 +1,40 @@
+# Secrets
+.env
+*.env
+*.key
+*.pem
+*.crt
+secrets.*
+config*.json
+config*.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Data
+data/
+datasets/
+raw_data/
+
+# Models
+models/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/

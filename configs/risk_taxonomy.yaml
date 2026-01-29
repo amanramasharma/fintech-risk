@@ -1,0 +1,48 @@
+version: "2026-01-09"
+owner: "risk-platform"
+description: "Risk taxonomy and decision thresholds"
+
+categories:
+  fraud:
+    label: "Fraud / Anomaly Risk"
+    severity: 0.9
+    reasons:
+      - high_transaction_velocity
+      - unusual_transaction_amount
+      - account_behavior_change
+    thresholds:
+      score_high: 0.85
+      score_medium: 0.60
+  no_risk:
+    label: "No Material Risk"
+    severity: 0.0
+    reasons: []
+    thresholds:
+      score_medium: 0.60
+      score_high: 0.85
+  conduct_risk:
+    label: "Conduct & Compliance Risk"
+    severity: 0.8
+    reasons:
+      - misleading_information
+    thresholds:
+      score_high: 0.80
+      score_medium: 0.55
+
+  complaints_handling:
+    label: "Complaints Handling Risk"
+    severity: 0.7
+    reasons:
+      - repeat_complaint
+    thresholds:
+      score_high: 0.75
+      score_medium: 0.50
+
+  customer_vulnerability:
+    label: "Customer Vulnerability Risk"
+    severity: 1.0
+    reasons:
+      - distress_language_detected
+    thresholds:
+      score_high: 0.70
+      score_medium: 0.45

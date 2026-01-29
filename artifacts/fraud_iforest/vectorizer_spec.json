@@ -1,0 +1,29 @@
+{
+  "numeric_cols": [
+    "txn_amount",
+    "txns_1h",
+    "txns_24h",
+    "avg_txn_amount_30d",
+    "account_age_days",
+    "device_change_7d",
+    "failed_logins_24h"
+  ],
+  "categorical_cols": [
+    "txn_currency",
+    "txn_country"
+  ],
+  "onehot_categories": {
+    "txn_currency": [
+      "GBP",
+      "EUR",
+      "USD"
+    ],
+    "txn_country": [
+      "GB",
+      "IE",
+      "FR",
+      "DE",
+      "US"
+    ]
+  }
+}

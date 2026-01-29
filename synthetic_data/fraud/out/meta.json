@@ -1,0 +1,1 @@
+{"seed":7,"n_customers":50000,"n_txns":1000000,"fraud_rate_target":0.01,"splits":{"train":800000,"val":100000,"test":100000},"anomaly_rate_actual":0.010039}
