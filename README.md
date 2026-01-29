@@ -161,6 +161,7 @@ fintech-risk/
 🚀 Getting Started
 
 git clone https://github.com/amanramasharma/fintech-risk.git
+
 cd fintech-risk
 
 python -m venv venv
@@ -199,9 +200,9 @@ It reflects how ML systems are actually built and deployed in regulated financia
 
 👨‍💻 Author
 
-Aman Sharma
-Machine Learning Engineer
-MSc Data Science — University of Surrey
+- Aman Sharma
+- Machine Learning Engineer
+- MSc Data Science — University of Surrey
 	•	GitHub: https://github.com/amanramasharma
 	•	LinkedIn: https://www.linkedin.com/in/amanramasharma/
 
