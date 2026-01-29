@@ -203,8 +203,8 @@ It reflects how ML systems are actually built and deployed in regulated financia
 - Aman Sharma
 - Machine Learning Engineer
 - MSc Data Science — University of Surrey
-	•	GitHub: https://github.com/amanramasharma
-	•	LinkedIn: https://www.linkedin.com/in/amanramasharma/
+  	- GitHub: https://github.com/amanramasharma
+   	- LinkedIn: https://www.linkedin.com/in/amanramasharma/
 
 ⸻
 
